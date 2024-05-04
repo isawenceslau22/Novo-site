@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+html {
+
+font-family: "Sedan", sans-serif;
+}
+
+body{
+    background-color: rgb(201, 156, 174);
+    margin-bottom: 100px;
+}
+img {
+
+  width: 100%;
+}
+/*Usando uma classe*/
+
+.header {
+
+    background-color:rgb(238, 119, 159);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.menu {
+  display: flex;
+}
+
+.menu li{
+
+ list-style: none;
+}
+.menu li a {text-decoration: none;
+  display: inline-block;
+ padding: 10px;}
+
+.menu a:hover {background-color: rgb(250, 23, 155);
+color: rgb(223, 174, 219);
+padding: 10px;
+border-radius:5px;}
